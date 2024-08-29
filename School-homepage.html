@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtuality School Resources</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: center;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .product h2 {
+            margin: 10px 0;
+            font-size: 1.2em;
+            color: #333;
+        }
+        .product p {
+            margin: 10px 0;
+            color: #777;
+        }
+        .product button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .product button:hover {
+            background-color: #45a049;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>VIRTUALITY SCHOOL RESOURCES</h1>
+        <p>FREE RESOURCES FOR BOTH TEACHERS AND LEARNERS</p>
+    </div>
+    <div class="container">
+        <div class="product">
+            <h2>SWAPS KENYA</h2>
+            <p>SECONDARY OPTION</p>
+            <a href="https://www.shiko.com"><button class="add-to-cart" data-id="1">Visit Site</button></a>
+        </div>
+        <div class="product">
+            <h2>SWAPS KENYA</h2>
+            <p>PRIMARY OPTION</p>
+            <button class="add-to-cart" data-id="2">Visit Site</button>
+        </div>
+        <div class="product">
+            <h2>KCSE PAST PAPERS</h2>
+            <p>Free Downloads</p>
+            <button class="add-to-cart" data-id="1">Click to download</button>
+        </div>
+        <div class="product">
+            <h2>KCSE PAST PAPERS</h2>
+            <p>Free Downloads</p>
+            <button class="add-to-cart" data-id="1">Click to download</button>
+        </div>
+        <div class="product">
+            <h2>SWAPS KENYA</h2>
+            <p>PRIMARY OPTION</p>
+            <button class="add-to-cart" data-id="2">Visit Site</button>
+        </div>
+        <div class="product">
+            <h2>KCSE PAST PAPERS</h2>
+            <p>Free Downloads</p>
+            <button class="add-to-cart" data-id="1">Click to download</button>
+        </div>
+        <div class="product">
+            <h2>KCSE PAST PAPERS</h2>
+            <p>Free Downloads</p>
+            <button class="add-to-cart" data-id="1">Click to download</button>
+        </div>
+        <div class="product">
+            <h2>KCPE PAST PAPERS</h2>
+            <p>Free Downloads</p>
+            <button class="add-to-cart" data-id="2">Click to download</button>
+        </div>
+        <div class="product">
+            <h2>KCSE PREDICTIONS</h2>
+            <p>Predictions and past papers</p>
+            <button class="add-to-cart" data-id="1">Click to download</button>
+        </div>
+        <div class="product">
+            <h2>KCPE PAST PAPERS</h2>
+            <p>Free Downloads</p>
+            <button class="add-to-cart" data-id="2">Click to download</button>
+        </div>
+        <div class="product">
+            <h2>KCSE PREDICTIONS</h2>
+            <p>Predictions and past papers</p>
+            <button class="add-to-cart" data-id="1">Click to download</button>
+        </div>
+        <div class="product">
+            <h2>KCSE PAST PAPERS</h2>
+            <p>Free Downloads</p>
+            <button class="add-to-cart" data-id="1">Click to download</button>
+        </div>
+        <div class="product">
+            <h2>KCPE PAST PAPERS</h2>
+            <p>Free Downloads</p>
+            <button class="add-to-cart" data-id="2">Click to download</button>
+        </div>
+        <div class="product">
+            <h2>KCSE PREDICTIONS</h2>
+            <p>Predictions and past papers</p>
+            <button class="add-to-cart" data-id="1">Click to download</button>
+        </div>
+        <div class="product">
+            <h2>KCPE PREDICTIONS</h2>
+            <p>Free Downloads</p>
+            <button class="add-to-cart" data-id="2">Click to download</button>
+        </div>
+        <div class="product">
+            <h2>KCPE MARKING SCHEMES</h2>
+            <button class="add-to-cart" data-id="1">Click to download</button>
+        </div>
+        <div class="product">
+            <h2>KCSE MARKING SCHEMES</h2>
+            <button class="add-to-cart" data-id="2">Click to download</button>
+        </div>
+        <div class="product">
+            <h2>SCHEMES OF WORK</h2>
+            <p>Updated Schemes</p>
+            <button class="add-to-cart" data-id="2">Click to download</button>
+        </div>
+        <div class="product">
+            <h2>POWERPOINTS & NOTES</h2>
+            <p>Topical Presentations</p>
+            <button class="add-to-cart" data-id="2">Click to download</button>
+        </div>
+        <div class="product">
+            <h2>LESSON PLANS</h2>
+            <p>Free Lesson Plans</p>
+            <button class="add-to-cart" data-id="1">Visit Site</button>
+        </div>
+        <div class="product">
+            <h2>DOWNLOADS</h2>
+            <p>All downloads from TSC/KNEC/ETC</p>
+            <button class="add-to-cart" data-id="2">Click to download</button>
+        </div>
+    </div>
+</body>
+</html>
